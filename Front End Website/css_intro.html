@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Introduction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Tutorial</a>
+          <ul class="dropdown">
+            <li><a href="html_tutorial.html">HTML Tutorial</a></li>
+            <li><a href="css_tutorial.html">CSS Tutorial</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>HTML Tutorials</h2>
+      <ul>
+        <li><a href="html_intro.html">Introduction to HTML</a></li>
+        <li><a href="html_editors.html">HTML Text Editors</a></li>
+        <li><a href="html_tags.html">HTML Tags</a></li>
+        <li><a href="html_elements.html">HTML Elements</a></li>
+        <li><a href="html_formatting.html">HTML Formatting</a></li>
+        <li><a href="html_attributes.html">HTML Attributes</a></li>
+      </ul>
+
+      <h2>CSS Tutorials</h2>
+      <ul>
+        <li><a href="css_intro.html">Introduction to CSS</a></li>
+        <li><a href="css_selectors.html">CSS Selectors</a></li>
+        <li><a href="css_colors.html">CSS Colors</a></li>
+        <li><a href="css_box_model.html">CSS Box Model</a></li>
+        <li><a href="css_layout.html">CSS Layout</a></li>
+        <li><a href="css_flexbox.html">CSS Flexbox</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>Introduction to CSS</h1>
+      <p>CSS (Cascading Style Sheets) is used to style and layout web pages. It allows you to change the color, font, spacing, and position of elements on a webpage.</p>
+
+      <h2>Why CSS?</h2>
+      <ul>
+        <li>CSS helps separate content from design, improving website maintainability.</li>
+        <li>It allows developers to create visually appealing and responsive designs.</li>
+        <li>CSS enhances accessibility by enabling changes to font sizes and layout for different devices.</li>
+      </ul>
+
+      <h2>How CSS Works</h2>
+      <p>CSS is applied to HTML elements by linking an external stylesheet, using the &lt;style&gt; tag, or applying inline styles directly within the element.</p>
+
+      <h2>Example</h2>
+      <pre><code>
+&lt;style&gt;
+  body {
+    background-color: lightblue;
+    color: darkblue;
+  }
+&lt;/style&gt;
+      </code></pre>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Learn HTML & CSS. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

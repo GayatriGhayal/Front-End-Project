@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Tutorial</a>
+          <ul class="dropdown">
+            <li><a href="html_tutorial.html">HTML Tutorial</a></li>
+            <li><a href="css_tutorial.html">CSS Tutorial</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>HTML Tutorials</h2>
+      <ul>
+        <li><a href="html_intro.html">Introduction to HTML</a></li>
+        <li><a href="html_editors.html">HTML Text Editors</a></li>
+        <li><a href="html_tags.html">HTML Tags</a></li>
+        <li><a href="html_elements.html">HTML Elements</a></li>
+        <li><a href="html_formatting.html">HTML Formatting</a></li>
+        <li><a href="html_attributes.html">HTML Attributes</a></li>
+      </ul>
+
+      <h2>CSS Tutorials</h2>
+      <ul>
+        <li><a href="css_intro.html">Introduction to CSS</a></li>
+        <li><a href="css_selectors.html">CSS Selectors</a></li>
+        <li><a href="css_colors.html">CSS Colors</a></li>
+        <li><a href="css_box_model.html">CSS Box Model</a></li>
+        <li><a href="css_layout.html">CSS Layout</a></li>
+        <li><a href="css_flexbox.html">CSS Flexbox</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>CSS Flexbox</h1>
+      <p>CSS Flexbox is a powerful layout model that provides a simpler way to align elements and distribute space within a container. It's especially useful for creating responsive web designs.</p>
+
+      <h2>Flexbox Properties</h2>
+      <ul>
+        <li><strong>display: flex;</strong> Defines a flex container.</li>
+        <li><strong>justify-content:</strong> Aligns items horizontally (e.g., flex-start, center, space-between).</li>
+        <li><strong>align-items:</strong> Aligns items vertically (e.g., flex-start, center, stretch).</li>
+        <li><strong>flex-wrap:</strong> Allows items to wrap onto a new line when necessary.</li>
+      </ul>
+
+      <h2>Example (Flexbox Layout)</h2>
+      <pre><code>
+/* Flexbox Layout Example */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  width: 30%;
+  background-color: lightgreen;
+  padding: 20px;
+}
+      </code></pre>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Learn HTML & CSS. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

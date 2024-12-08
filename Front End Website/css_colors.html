@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Colors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Tutorial</a>
+          <ul class="dropdown">
+            <li><a href="html_tutorial.html">HTML Tutorial</a></li>
+            <li><a href="css_tutorial.html">CSS Tutorial</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>HTML Tutorials</h2>
+      <ul>
+        <li><a href="html_intro.html">Introduction to HTML</a></li>
+        <li><a href="html_editors.html">HTML Text Editors</a></li>
+        <li><a href="html_tags.html">HTML Tags</a></li>
+        <li><a href="html_elements.html">HTML Elements</a></li>
+        <li><a href="html_formatting.html">HTML Formatting</a></li>
+        <li><a href="html_attributes.html">HTML Attributes</a></li>
+      </ul>
+
+      <h2>CSS Tutorials</h2>
+      <ul>
+        <li><a href="css_intro.html">Introduction to CSS</a></li>
+        <li><a href="css_selectors.html">CSS Selectors</a></li>
+        <li><a href="css_colors.html">CSS Colors</a></li>
+        <li><a href="css_box_model.html">CSS Box Model</a></li>
+        <li><a href="css_layout.html">CSS Layout</a></li>
+        <li><a href="css_flexbox.html">CSS Flexbox</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>CSS Colors</h1>
+      <p>CSS allows you to apply colors to your HTML elements to create visually appealing websites. Colors can be defined in different formats like names, HEX, RGB, and HSL.</p>
+
+      <h2>Color Formats</h2>
+      <ul>
+        <li><strong>Color Names:</strong> Example: red, green, blue.</li>
+        <li><strong>HEX Codes:</strong> Example: #ff0000 (red), #00ff00 (green).</li>
+        <li><strong>RGB:</strong> Example: rgb(255, 0, 0) for red.</li>
+        <li><strong>RGBA:</strong> Example: rgba(255, 0, 0, 0.5) for semi-transparent red.</li>
+        <li><strong>HSL:</strong> Example: hsl(0, 100%, 50%) for red.</li>
+      </ul>
+
+      <h2>Example</h2>
+      <pre><code>
+/* Using color names */
+body {
+  background-color: lightblue;
+}
+
+/* Using HEX code */
+h1 {
+  color: #ff0000;
+}
+
+/* Using RGB */
+p {
+  color: rgb(0, 128, 0);
+}
+      </code></pre>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Learn HTML & CSS. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

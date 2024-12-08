@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Tutorial</a>
+          <ul class="dropdown">
+            <li><a href="html_tutorial.html">HTML Tutorial</a></li>
+            <li><a href="css_tutorial.html">CSS Tutorial</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>HTML Tutorials</h2>
+      <ul>
+        <li><a href="html_intro.html">Introduction to HTML</a></li>
+        <li><a href="html_editors.html">HTML Text Editors</a></li>
+        <li><a href="html_tags.html">HTML Tags</a></li>
+        <li><a href="html_elements.html">HTML Elements</a></li>
+        <li><a href="html_formatting.html">HTML Formatting</a></li>
+        <li><a href="html_attributes.html">HTML Attributes</a></li>
+      </ul>
+
+      <h2>CSS Tutorials</h2>
+      <ul>
+        <li><a href="css_intro.html">Introduction to CSS</a></li>
+        <li><a href="css_selectors.html">CSS Selectors</a></li>
+        <li><a href="css_colors.html">CSS Colors</a></li>
+        <li><a href="css_box_model.html">CSS Box Model</a></li>
+        <li><a href="css_layout.html">CSS Layout</a></li>
+        <li><a href="css_flexbox.html">CSS Flexbox</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>CSS Selectors</h1>
+      <p>CSS selectors are patterns used to select the HTML elements you want to style. They can be simple or more complex, targeting specific elements based on their type, class, ID, or other attributes.</p>
+
+      <h2>Common Selectors</h2>
+      <ul>
+        <li><strong>Type Selector:</strong> Selects elements based on the element type. Example: &lt;div&gt;, &lt;p&gt;.</li>
+        <li><strong>Class Selector:</strong> Selects elements with a specific class attribute. Example: .class-name.</li>
+        <li><strong>ID Selector:</strong> Selects an element with a specific ID attribute. Example: #id-name.</li>
+        <li><strong>Universal Selector:</strong> Selects all elements. Example: *.</li>
+      </ul>
+
+      <h2>Example</h2>
+      <pre><code>
+/* Type selector */
+p {
+  font-size: 16px;
+}
+
+/* Class selector */
+.button {
+  background-color: blue;
+  color: white;
+}
+
+/* ID selector */
+#header {
+  text-align: center;
+}
+      </code></pre>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Learn HTML & CSS. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

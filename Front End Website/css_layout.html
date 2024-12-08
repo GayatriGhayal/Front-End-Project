@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Tutorial</a>
+          <ul class="dropdown">
+            <li><a href="html_tutorial.html">HTML Tutorial</a></li>
+            <li><a href="css_tutorial.html">CSS Tutorial</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>HTML Tutorials</h2>
+      <ul>
+        <li><a href="html_intro.html">Introduction to HTML</a></li>
+        <li><a href="html_editors.html">HTML Text Editors</a></li>
+        <li><a href="html_tags.html">HTML Tags</a></li>
+        <li><a href="html_elements.html">HTML Elements</a></li>
+        <li><a href="html_formatting.html">HTML Formatting</a></li>
+        <li><a href="html_attributes.html">HTML Attributes</a></li>
+      </ul>
+
+      <h2>CSS Tutorials</h2>
+      <ul>
+        <li><a href="css_intro.html">Introduction to CSS</a></li>
+        <li><a href="css_selectors.html">CSS Selectors</a></li>
+        <li><a href="css_colors.html">CSS Colors</a></li>
+        <li><a href="css_box_model.html">CSS Box Model</a></li>
+        <li><a href="css_layout.html">CSS Layout</a></li>
+        <li><a href="css_flexbox.html">CSS Flexbox</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>CSS Layout</h1>
+      <p>CSS Layout is used to arrange elements in a page. There are several techniques for layout in CSS including Flexbox, Grid, and positioning.</p>
+
+      <h2>Common Layout Techniques</h2>
+      <ul>
+        <li><strong>Flexbox:</strong> A layout model that allows you to design complex layouts with a simple, flexible box container.</li>
+        <li><strong>CSS Grid:</strong> A 2D grid-based layout system for creating web page structures.</li>
+        <li><strong>Float and Positioning:</strong> Traditional methods of creating layouts using the `float` property and `positioning` properties (relative, absolute, fixed).</li>
+      </ul>
+
+      <h2>Example (Flexbox Layout)</h2>
+      <pre><code>
+/* Flexbox Layout Example */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 30%;
+  background-color: lightblue;
+  padding: 20px;
+}
+      </code></pre>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Learn HTML & CSS. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+ /* General Reset and Font Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    min-height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    padding-bottom: 50px; /* Moderate bottom padding */
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #4CAF50;
+    padding: 30px 0; /* Slightly larger padding */
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 20px; /* Moderate space between navigation items */
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px; /* Slightly larger font size */
+    padding: 12px; /* Moderate padding */
+  }
+  
+  header nav ul li a:hover {
+    color: #f0f0f0;
+    background-color: #45a049;
+    border-radius: 5px;
+  }
+  
+  header nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    padding: 10px;
+    list-style: none;
+    margin-top: 5px;
+  }
+  
+  header nav ul li:hover .dropdown {
+    display: block;
+  }
+  
+  header nav ul li .dropdown li {
+    margin: 8px 0;
+  }
+  
+  /* Main Content Section */
+  .main-content {
+    background-color: #fff;
+    padding: 50px 0; /* Moderate padding for more vertical space */
+    margin-top: 30px; /* Moderate space between header and content */
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px; /* Moderate padding for content area */
+  }
+  
+  /* Search Bar Section */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; /* Moderate bottom margin */
+  }
+  
+  #search-bar {
+    padding: 15px;
+    font-size: 16px; /* Slightly smaller font size */
+    width: 60%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  #search-btn {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; /* Slightly smaller space between input and button */
+  }
+  
+  #search-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Motivational Section */
+  .motivational-section {
+    text-align: center;
+    margin-top: 40px; /* Moderate space above motivational section */
+  }
+  
+  .motivational-section h2 {
+    color: #4CAF50;
+    font-size: 32px; /* Slightly smaller font size */
+  }
+  
+  .motivational-section h3 {
+    color: #666;
+    font-size: 22px; /* Slightly smaller font size */
+    font-style: italic;
+    margin-top: 20px; /* Moderate space above motivational text */
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0; /* Moderate padding for footer */
+    text-align: center;
+    margin-top: 40px; /* Moderate space between content and footer */
+  }
+  
