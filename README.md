@@ -16,7 +16,7 @@ JavaScript: Interactive elements.
 Clone the project:
 bash
 Copy code
-git clone https://github.com/your-username/learn-html-css.git
+git clone git@github.com:GayatriGhayal/Front-End-Project.git
 Open index.html in your browser.
 📂 File Structure
 index.html: Homepage.
